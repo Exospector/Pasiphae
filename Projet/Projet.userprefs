@@ -1,8 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Cthulours\Projet_unity\Assets\Classe\Pouvoir.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Personnage.cs">
     <Files>
-      <File FileName="..\..\Cthulours\Projet_unity\Assets\Classe\Pouvoir.cs" Line="86" Column="1" />
+      <File FileName="Assets\Script\Eclipse.cs" Line="17" Column="5" />
+      <File FileName="..\..\Cthulours\Projet_unity\Assets\Classe\Score.cs" Line="1" Column="1" />
+      <File FileName="..\..\Cthulours\Projet_unity\Assets\Classe\Pouvoir.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\Personnage.cs" Line="94" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

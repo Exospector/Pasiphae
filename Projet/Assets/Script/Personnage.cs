@@ -67,14 +67,27 @@ public class Personnage : MonoBehaviour {
 		anim.SetFloat("Vitesse",vitesse);
 
 		this.transform.position = new Vector2 (transform.position.x + vitesse, transform.position.y);
-		if (Input.GetKey (KeyCode.Space)) {
-			anim.SetBool("Saut",true);
+		if (!anim.GetBool ("Saut")&&!anim.GetBool ("Chute")) {
+			if (Input.GetKey (KeyCode.Space)) {
+				StartCoroutine("saut");
+			}
 		}
-
+	}
+	IEnumerator saut(){
+		anim.SetBool ("Saut", true);
+		anim.gameObject.GetComponent<Rigidbody2D> ().AddForce (new Vector2 (0, 50), ForceMode2D.Impulse);
+		yield return new WaitForSeconds (1.0f);
+		anim.SetBool("Chute",true);
+		anim.SetBool("Saut",false);
 	}
 	void OnCollisionEnter2D(Collision2D coll) {
-		if (anim.GetBool ("Saut")) {
 			anim.SetBool ("Saut", false);
+			anim.SetBool ("Chute", false);
+	}
+	void OnCollisionExit2D(Collision2D coll) {
+		if (!anim.GetBool ("Saut")) {
+			anim.SetBool("Chute",true);
+
 		}
 	}
 }

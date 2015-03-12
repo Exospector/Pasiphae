@@ -46,10 +46,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Script\Deplacement.cs" />
+     <Compile Include="Assets\Script\Eclipse.cs" />
      <Compile Include="Assets\Script\FollowMouse.cs" />
      <Compile Include="Assets\Script\Personnage.cs" />
-     <Compile Include="Assets\Script\Saut.cs" />
      <Compile Include="Assets\Script\Stop.cs" />
      <Compile Include="Assets\Script\pop.cs" />
  <Reference Include="UnityEngine.UI">
