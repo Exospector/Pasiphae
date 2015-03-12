@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\FollowMouse.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Eclipse.cs">
     <Files>
-      <File FileName="Assets\Script\FollowMouse.cs" Line="23" Column="3" />
+      <File FileName="..\..\Cthulours\Projet_unity\Assets\Classe\Score.cs" Line="19" Column="4" />
+      <File FileName="Assets\Script\Eclipse.cs" Line="19" Column="1" />
+      <File FileName="Assets\Script\Personnage.cs" Line="72" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
