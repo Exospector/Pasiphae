@@ -39,19 +39,20 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>F:/Utilitaires/Unity5/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>D:/Unity5.0/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>F:/Utilitaires/Unity5/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>D:/Unity5.0/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\Eclipse.cs" />
      <Compile Include="Assets\Script\FollowMouse.cs" />
      <Compile Include="Assets\Script\Personnage.cs" />
      <Compile Include="Assets\Script\Stop.cs" />
      <Compile Include="Assets\Script\pop.cs" />
  <Reference Include="UnityEngine.UI">
- <HintPath>F:/Utilitaires/Unity5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>D:/Unity5.0/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
