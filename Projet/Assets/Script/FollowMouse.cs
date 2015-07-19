@@ -11,35 +11,30 @@ public class FollowMouse : MonoBehaviour
 	private GameObject target;
 	private float distance;
 
-	// Use this for initialization
-	void Start()
+	// Debug du projeté orthogonal de la caméra
+	//private GameObject marqueurDebug;
+
+	void Awake()
 	{
 		distance = 0;
 		target = GameObject.FindGameObjectWithTag("Player");
+		transform.position = new Vector3(target.transform.position.x, target.transform.position.y, transform.position.z);
+
+		// Debug du projeté orthogonal de la caméra
+		//marqueurDebug = Instantiate(Resources.Load("Prefab/MarqueurDebug")) as GameObject;
+		//marqueurDebug.transform.position = target.transform.position;
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
-		/*transform.position = new Vector3(Mathf.Clamp((Input.mousePosition.x - Screen.width/2), leftBound, rightBound),
-		                                 Mathf.Clamp((Input.mousePosition.y - Screen.height/2), bottomBound, topBound),
-		                                 -10.0f);*/
+		// Debug du projeté orthogonal de la caméra
+		/*marqueurDebug.transform.position = new Vector3(target.transform.position.x + (Input.mousePosition.x - Screen.width/2)/100,
+		                                               target.transform.position.y + (Input.mousePosition.y - Screen.height/2)/100,
+		                                               0.0f);*/
 
-		RaycastHit vHit = new RaycastHit();
-		Ray vRay = Camera.main.ScreenPointToRay(Input.mousePosition);
-
-		Physics.Raycast(vRay, out vHit, 50);
-
-		distance = Vector2.Distance(target.transform.position, vHit.point);
-		//Debug.Log (distance);
-
-		if(distance != 0)
-		{
-			transform.position = new Vector3(target.transform.position.x, target.transform.position.y, transform.position.z);
-		}
-		else
-		{
-
-		}
+		transform.position = new Vector3(target.transform.position.x + (Input.mousePosition.x - Screen.width/2)/100,
+		                                 target.transform.position.y + (Input.mousePosition.y - Screen.height/2)/100,
+		                                 transform.position.z);
 	}
 }

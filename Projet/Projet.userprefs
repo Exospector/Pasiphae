@@ -1,10 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Eclipse.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\SwitchingEclipse.cs">
     <Files>
-      <File FileName="..\..\Cthulours\Projet_unity\Assets\Classe\Score.cs" Line="19" Column="4" />
-      <File FileName="Assets\Script\Eclipse.cs" Line="19" Column="1" />
-      <File FileName="Assets\Script\Personnage.cs" Line="72" Column="15" />
+      <File FileName="Assets\Script\SwitchingEclipse.cs" Line="9" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
