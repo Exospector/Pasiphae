@@ -1,0 +1,12 @@
+A refaire intégralement :
+- Déplacements et animations (Prévoir large : blessures, etc...) 4pts 3 semaines
+- UI dialogue 2pts / 3pts 1-2 semaines
+
+A revoir / corriger / finir :
+- Eclipses 1pts / 2pts 1 semaine
+- Hitboxes 1pts instant
+- Calibrage caméra [Priorité-] 1pts
+
+A faire :
+- Ennemies + IA 5pts 2-3 semaines
+- Système de combat (CaC ou Distance) 3pts / 2pts, requiert animations 1 semaine
